@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: white;
+    color: #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .donate-button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s;
+  }
+  
+  .donate-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Unique rainbow styles */
+  .rainbow1 {
+    background: linear-gradient(45deg, #ff0000, #ff9900);
+  }
+  .rainbow2 {
+    background: linear-gradient(45deg, #ff9900, #ffff00);
+    color: #222;
+  }
+  .rainbow3 {
+    background: linear-gradient(45deg, #00ff00, #00ccff);
+  }
+  .rainbow4 {
+    background: linear-gradient(45deg, #6600ff, #cc00ff);
+  }
+  .rainbow5 {
+    background: linear-gradient(45deg, #ff0066, #ffcc00);
+    color: #222;
+  }
+  .rainbow6 {
+    background: linear-gradient(45deg, #00ffff, #ff00ff);
+  }
+  
+  footer {
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
